@@ -2,22 +2,29 @@
 layout: default
 ---
 
-<div class="home">
+<div class="page-content" data-grid="around spacing">
 
-  <h1 class="page-heading">Posts</h1>
+  <section class="wrapper" data-cell="2of3">
+    <h2 class="page-heading">Todos os serviços de entrega em um só lugar</h2>
+  </section>
 
-  <ul class="post-list">
+  <section class="wrapper" data-cell="shrink">
+  
+    <h2 class="page-heading">Posts</h2>
+
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <article>
+        <p>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <div>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </div>
+        </p>
+      </article>
     {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">Assine o <a href="{{ "/feed.xml" | prepend: site.baseurl }}">feed RSS</a></p>
+  
+  </section>
 
 </div>

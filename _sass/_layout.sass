@@ -1,0 +1,78 @@
+
+.site-header
+    padding: $spacing-unit 0
+
+    +media-query($on-palm)
+        padding: $spacing-unit / 2 0
+
+.site-title
+    margin: 0
+    float: left
+
+    +media-query($on-palm)
+        img
+            max-height: 30px
+            width: auto
+
+.site-nav
+    float: right
+    line-height: 56px
+    font:
+        family: $base-title-family
+        size: $small-font-size
+    text-transform: uppercase
+    .menu-icon
+        display: none
+    .page-link
+        color: inherit
+        line-height: $base-line-height
+        margin-left: 20px
+    +media-query($on-laptop)
+        position: absolute
+        top: 2px
+        right: 2px
+        text-align: right
+        .menu-icon
+            display: block
+            float: right
+            width: 56px
+            height: 56px
+            text-align: center
+            > svg
+                width: 21px
+                height: 55px
+                color: inherit
+                path
+                    fill: currentcolor
+        .trigger
+            clear: both
+            display: none
+        &:hover .trigger
+            display: block
+            width: 100%
+            padding-bottom: 5px
+            background-color: $background-color
+            box-shadow: (-3px) 3px 10px 0 $grey-color
+        .page-link
+            display: block
+            padding: 15px
+            color: $text-color
+
+.site-footer
+    padding: $spacing-unit 0
+
+.page-content
+    padding: $spacing-unit 0
+
+.page-title
+    font:
+        family: $page-title-family
+        size: 40px
+
+
+.post-list
+.post-meta
+.post-link
+.post-header
+.post-title
+.post-content
