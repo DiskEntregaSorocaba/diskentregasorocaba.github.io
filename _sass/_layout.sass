@@ -1,5 +1,11 @@
+%negativo
+    background-color: $vermelho-escuro
+    color: #fff
+    a
+        color: $amarelo
 
 .site-header
+    @extend %negativo
     padding: $spacing-unit 0
 
     +media-query($on-palm)
@@ -71,8 +77,13 @@
 
 
 .post-list
+    max-width: 24em
 .post-meta
+    color: $grey-color
+    font-size: .7em
+    text-transform: uppercase
 .post-link
+    display: block
 .post-header
 .post-title
 .post-content

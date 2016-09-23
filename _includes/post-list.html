@@ -1,0 +1,19 @@
+
+<h2 class="page-heading">Posts</h2>
+
+{% for post in site.posts limit: include.limit %}
+  <article>
+    <p>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <small class="post-excerpt">{{ post.excerpt | strip_html }}</small>
+    </p>
+  </article>
+{% endfor %}
+
+
+<p class="rss-subscribe">
+  {% if include.limit %}<a href="#">Leia todos</a> ou assine{% else %}Assine{% endif %}
+  o <a href="{{ "/feed.xml" | prepend: site.baseurl }}">feed RSS</a>
+</p>
+

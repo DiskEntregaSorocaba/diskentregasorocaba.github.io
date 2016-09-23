@@ -1,0 +1,53 @@
+[{
+    "title": "Batata Recheada",
+    "id": "batata-recheada",
+    "items": ["Cristal Batataria"]
+}, {
+    "title": "Beirute",
+    "id": "beirute",
+    "items": ["Bella & Paulista", "Pizzaria Duo Fratello"]
+}, {
+    "title": "Comida Chinesa",
+    "id": "comida-chinesa",
+    "items": ["China House Delivery Sorocaba"]
+}, {
+    "title": "Comida Árabe",
+    "id": "comida-arabe",
+    "items": ["Abu Salin Delicias Árabes"]
+}, {
+    "title": "Esfiha",
+    "id": "esfiha",
+    "items": ["Disk Pizzas Garolli", "Pizzaria Duo Fratello"]
+}, {
+    "title": "Lanche",
+    "id": "lanche",
+    "items": ["Cristal Batataria", "Josiel Lanches", "Neri Lanches", "Roma Disk Pizza", "Disk Pizzas Garolli"]
+}, {
+    "title": "Marmitex",
+    "id": "marmitex",
+    "items": ["Marmitex Kero Kero"]
+}, {
+    "title": "Pizza Assada ou Frita",
+    "id": "pizza-assada-ou-frita",
+    "items": ["Mangione Pizzaria"]
+}, {
+    "title": "Pizza em Cone",
+    "id": "pizza-em-cone",
+    "items": ["Pizzone’s Pizzaria"]
+}, {
+    "title": "Pizza",
+    "id": "pizza",
+    "items": ["Barão JK Pizzaria", "Bella & Paulista", "Pizzaria Duo Fratello", "Portucalle Pizzas", "Disk Pizzas Garolli", "Roma Disk Pizza", "Pizzaria Nova Aliança", "Big Borda Pizzas", "Pizzarella Disk Pizza"]
+}, {
+    "title": "Pizza Doce",
+    "id": "pizza-doce",
+    "items": ["Barão JK Pizzaria", "Bella & Paulista", "Portucalle Pizzas", "Pizzaria Duo Fratello", "Roma Disk Pizza", "Vivitália Pizza Delivery", "Pizzaria Nova Aliança", "Big Borda Pizzas"]
+}, {
+    "title": "Tortas",
+    "id": "tortas",
+    "items": ["Pizzaria Junior"]
+}, {
+    "title": "Verduras",
+    "id": "verduras",
+    "items": ["Horta do Edmar"]
+}]

@@ -1,6 +1,7 @@
 
 title: Disk Entrega Sorocaba
-description: ""
+description: >
+  Todos os serviços de entrega em um só lugar! Delivery na palma da sua mão, em qualquer parte da cidade.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://diskentregasorocaba.com.br/" # the base hostname & protocol for your site
@@ -13,3 +14,16 @@ sass:
 
 gems:
   - jekyll-coffeescript
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: parceiros
+    values:
+      layout: parceiro
+
+collections:
+  parceiros:
+    output: true
+    permalink: /:categories/:path/

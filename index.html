@@ -1,30 +1,39 @@
 ---
 layout: default
 ---
+<section class="page-content section-feature">
+    <div class="wrapper">
+        <h2 class="page-heading">
+            Serviços mais recentes
+        </h2>
 
-<div class="page-content" data-grid="around spacing">
+        {% for parceiro in site.parceiros %}
 
-  <section class="wrapper" data-cell="2of3">
-    <h2 class="page-heading">Todos os serviços de entrega em um só lugar</h2>
-  </section>
+        <p><a href="{{ parceiro.url }}">{{ parceiro.title }}</a></p>
 
-  <section class="wrapper" data-cell="shrink">
-  
-    <h2 class="page-heading">Posts</h2>
-
-    {% for post in site.posts %}
-      <article>
-        <p>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <div>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </div>
-        </p>
-      </article>
-    {% endfor %}
-
-    <p class="rss-subscribe">Assine o <a href="{{ "/feed.xml" | prepend: site.baseurl }}">feed RSS</a></p>
-  
-  </section>
-
-</div>
+        {% endfor %}
+    </div>
+</section>
+<section class="page-content section-about">
+    <div class="wrapper" data-grid="spacing">
+        <article data-cell="2of3">
+            <h2 class="page-heading">
+                {{ site.description }}
+            </h2>
+            {% assign about_url = "/sobre/" %}
+            {% for page in site.pages | where: "permalink", about_url %}
+            <p>
+                {{ page.excerpt }}
+            </p>
+            {% endfor %}
+            <p>
+                <a href="{{ about_url | prepend: site.baseurl }}">
+                    Saiba mais...
+                </a>
+            </p>
+        </article>
+        <aside class="post-list" data-cell="shrink">
+            {% include post-list.html limit = 3 %}
+        </aside>
+    </div>
+</section>
