@@ -2,9 +2,21 @@
 
   <div class="wrapper" data-grid="center row nowrap spacing justify">
 
-    <div data-cell="">
+    <div data-cell="shrink">
       <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ '/img/logo-des.png' | prepend: site.baseurl }}" alt="{{ site.title }}" width="150"></a>
     </div>
+
+    <form action="" method="get" data-cell="" class="form-search">
+      <label for="search">Quero um serviço de entrega de:</label>
+      <div data-grid="row nowrap">
+        <div data-cell="" data-grid>
+          <input type="search" name="search" placeholder="Digite um produto ou serviço..." autofocus>
+        </div>
+        <div data-cell="shrink" data-grid>
+          <button>Buscar</button>
+        </div>
+      </div>
+    </form>
 
     <nav class="site-nav" data-cell="shrink">
       <a href="#" class="menu-icon">
