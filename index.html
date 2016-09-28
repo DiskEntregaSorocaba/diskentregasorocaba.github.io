@@ -4,16 +4,21 @@ layout: default
 <section class="page-content section-feature">
     <div class="wrapper">
         <h2 class="page-heading">
-            Serviços mais recentes
+            Parceiros
         </h2>
+
+        <div data-grid="spacing wrap">
 
         {% for parceiro in site.parceiros %}
 
-        <p><a href="{{ parceiro.url }}">{{ parceiro.title }}</a></p>
+            <p data-cell><a href="{{ parceiro.url }}">{{ parceiro.title }}</a></p>
 
         {% endfor %}
+
+        </div>
     </div>
 </section>
+
 <section class="page-content section-about">
     <div class="wrapper" data-grid="spacing">
         <article data-cell="2of3">

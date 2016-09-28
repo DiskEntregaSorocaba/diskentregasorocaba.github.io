@@ -1,0 +1,122 @@
+- categoria: PIZZAS
+  produtos: 
+  - nome: 01 - CALABRESA
+    desc: Calabresa e cebola
+  - nome: 02 - CATUPIRY
+    desc: Catupiry e tomate
+  - nome: 03 - MUSSARELA
+    desc: Mussarela e tomate
+  - nome: 04 - MILHO
+    desc: Catupiry e milho
+  - nome: 05 - CARIJÓ
+    desc: Mussarela e milho
+  - nome: 06 - MARGUERITA
+    desc: Mussarela, manjericão e tomate
+  - nome: 07 - CAlÇARA
+    desc: Atum, ervilha e cebola
+  - nome: 08 - NAPOLITANA
+    desc: Mussarela, tomate, parmesão e alho
+  - nome: 09 - BACON
+    desc: Mussarela e bacon
+  - nome: 1O - BAURU
+    desc: Mussarela, presunto e tomate
+  - nome: 11 - ESCAROLA
+    desc: Escarola refogada, mussarela e bacon
+  - nome: 12 - CALAMUSSA
+    desc: Calabresa fatiada e mussarela
+  - nome: 13 - LOMBINHO
+    desc: Lombo e catupiry
+  - nome: 14 - CHAMPIGNON
+    desc: Mussarela e champignon
+  - nome: 15 - TOSCANA
+    desc: Calabresa moída, mussarela e cebola
+  - nome: 16 - BAIANA
+    desc: Mussarela, calabresa moída, molho de pimenta, ovos e cebola
+  - nome: 17 - PORTUGUESITA
+    desc: Mussarela, presunto, ovos e cebola
+  - nome: 18 - ALICHE
+    desc: Iscas de aliche, mussarela, tomate e parmesão
+  - nome: 19 - FRANCATU
+    desc: Frango e catupiry
+  - nome: 20 - BRÓCOLIS
+    desc: Brócolis, mussarela, bacon e alho
+  - nome: 21 - ATUM
+    desc: Mussarela, atum e cebola
+  - nome: 22 - WASHINGTON
+    desc: Catupiry, calabresa e mussarela
+  - nome: 23 - 4 QUEIJOS
+    desc: Parmesão, mussarela, catupiry e provolone
+  - nome: 24 - CREMILHO
+    desc: Milho ao creme
+  - nome: 25 - BROCOLETO
+    desc: Brócolis ao creme
+  - nome: 26 - FRANGOLETO
+    desc: Frango ao creme
+  - nome: 27 - ESCAROLETO
+    desc: Escarola ao creme
+  - nome: 28 - RÚCULA
+    desc: Mussarela, rúcula e catupiry
+  - nome: 29 - TOMATE SECO
+    desc: Mussarela, tomate seco e catupiry
+  - nome: 30 - PALMITO
+    desc: Palmito c/ catupiry ou mussarela
+  - nome: 31 - ATLANTA
+    desc: Frango, milho, catupiry e bacon
+  - nome: 32 - CHICAGO
+    desc: Mussarela, frango, catupiry e ovos
+  - nome: 33 - PORTUGUESA
+    desc: mussarela, presunto, ovos, ervilhas, cebola e palmito
+  - nome: 34 - TEXAS
+    desc: Mussarela, champignon, bacon, parmesão e tomate
+  - nome: 35 - 5 QUEIJOS
+    desc: Provolone, gorgonzola, mussarela, parmesão e catupiry
+  - nome: 36 - LOMBO Á PORTUGUESA
+    desc: Lombo, mussarela, palmito, ervilha, ovo e cebola
+  - nome: 37 - ESCAROLESA
+    desc: Escarola, calabresa, mussarela e cebola
+  - nome: 38 - CALABRESA Á PORTUGUESA
+    desc: calabresa, mussarela, palmito, ervilha, ovo e cebola
+  - nome: 39 - BEIRA - MAR
+    desc: Atum, catupiry, palmito e tomate
+  - nome: 40 - VEGETARIANA
+    desc: mussarela, brócolis, palmito, champignon e milh
+  - nome: 41 - PEPERONE
+    desc: Peperone, mussarela, parmesão e champignon
+  - nome: 42 - NEW YORK
+    desc: Mussarela, catupiry, brócolis e tomate seco
+  - nome: 43 - FILADÉLFIA
+    desc: Lombo, calabresa, mussarela e bacon
+  - nome: 44 - LOS ANGELES
+    desc: Mussarela, calabresa, peperone e bacon
+  - nome: 45 - FLÓRIDA
+    desc: mussarela, presunto, calabresa, ovos, bacon, palmito e tomate
+  - nome: 46 - ALASKA
+    desc: Mussarela, frango, palmito e bacon
+  - nome: 47 - CALAFRANGO
+    desc: Mussarela, calabresa, frango e catupiry
+  - nome: 48 - CALABRESA C/ RÚCULA
+    desc: Mussarela, rúcula, calabresa e cebola
+  - nome: 49 - MIAMI
+    desc: mussarela, de búfala, manjericão, parmesão e tomate
+  - nome: 50 - PENSILVÂNIA
+    desc: Mussarela de búfala, escarola e tomate seco
+  - nome: 51 - ALABAMA
+    desc: Mignon com mussarela ou requeijão
+  - nome: 52 - HAVAI
+    desc: Mussarela de búfala, brócolis e champignon
+  - nome: 53 - RÚCULA C/ TOMATE SECO
+    desc: Rúcula, mussarela de búfala e tomate seco
+  - nome: 54 - STROGONOF DE FRANGO
+    desc: Frango ao molho rosa, champignon e batata palha
+  - nome: 55 - STROGONOF DE MIGNON
+    desc: Mignon ao molho rosê, champignon e batata palha
+- categoria: PIZZAS DOCES
+  produtos:
+  - nome: 56 - BANANA
+    desc: Banana, leite condensado, canela e açúcar
+  - nome: 57 - BRIGADEIRO
+    desc: chocolate, granulado e leite condensado
+  - nome: 58 - PRESTÍGIO
+    desc: chocolate, coco e leite condensado
+  - nome: 59 - ROMEU E JULIETA
+    desc: mussarela e goiabada
