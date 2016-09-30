@@ -1,0 +1,208 @@
+- categoria: Tradicionais
+  produtos:
+  - nome: Abobrinha
+    desc: abobrinha, mussarela, paleta defumada e manjericão
+  - nome: Alho 1
+    desc: mussarela e alho frito
+  - nome: Alho II
+    desc: mussarela, alho cru e tomate
+  - nome: Alho III
+    desc: mussarela, alho poro e palmito
+  - nome: À Moda da Casa
+    desc: presunto, frango, calabresa, bacon, milho, ervilha, cebola e catupiry
+  - nome: Atum 1
+    desc: atum e cebola
+  - nome: Atum II
+    desc: atum, mussarela e cebola
+  - nome: Atum III
+    desc: atum, catupiry e cebola
+  - nome: Atum IV
+    desc: atum, provolone e cebola
+  - nome: Atum Genova
+    desc: atum, palmito, ervilha e mussarela
+  - nome: Baiana
+    desc: calabresa moída, cebola, mussarela e molho de pimenta
+  - nome: Bauru 1
+    desc: mussarela, presunto e tomate
+  - nome: Bauru II
+    desc: mussarela, presunto, bacon e tomate
+  - nome: Bauru II
+    desc: mussarela, presunto, palmito e tomate
+  - nome: Bauru IV
+    desc: mussarela, presunto, champignon e tomate
+  - nome: Berinjela 1
+    desc: mussarela e berinjela
+  - nome: Berinjela II
+    desc: tomate seco, champignon, berinjela e mussarela
+  - nome: Berinjela III
+    desc: mussarela, tomate seco, bacon e berinjela
+  - nome: Bolonhesa 1
+    desc: carne moída, mussarela, parmesão e molho de tomate
+  - nome: Bolonhesa II
+    desc: carne moída, catupiry, parmesão e molho de tomate
+  - nome: Brócolis 1
+    desc: brócolis, mussarela, bacon e champignon
+  - nome: Brócolis II
+    desc: brócolis, palmito, mussarela e bacon
+  - nome: Brócolis III
+    desc: brócolis, mussarela e aliche
+  - nome: Brócolis IV
+    desc: brócolis, mussarela e atum
+  - nome: Calabresa 1
+    desc: calabresa e cebola
+  - nome: Calabresa II
+    desc: calabresa, mussarela e cebola
+  - nome: Calabresa III
+    desc: calabresa, catupiry e cebola
+  - nome: Calabresa IV
+    desc: calabresa, provolone e cebola
+  - nome: Champignon 1
+    desc: mussarela, bacon e champignon
+  - nome: Champignon II
+    desc: catupiry, bacon e champignon
+  - nome: Champignon III
+    desc: provolone, champignon e bacon
+  - nome: Dois Queijos
+    desc: mussarela e catupiry
+  - nome: Três Queijos
+    desc: mussarela, catupiry e provolone
+  - nome: Quatro Queijos
+    desc: mussarela, parmesão, provolone e catupiry
+  - nome: Cinco Queijos
+    desc: mussarela, provolone, parmesão, gorgonzola e catupiry
+  - nome: Seis Queijos
+    desc: mussarela, parmesão, provolone, gorgonzola, cheddar e catupiry
+  - nome: Escarola 1
+    desc: escarola, mussarela e bacon
+  - nome: Escarola II
+    desc: catupiry, escarola e bacon
+  - nome: Escarola III
+    desc: mussarela,escarola e aliche
+  - nome: Escarola IV
+    desc: mussarela, escarola e atum
+  - nome: Executiva
+    desc: frango, provolone ,chedder e bacon
+  - nome: Frango 1
+    desc: frango, milho e mussarela
+  - nome: Frango II
+    desc: frango, catupiry e milho
+  - nome: Frango III
+    desc: frango, catupiry, milho e bacon
+  - nome: Frango IV
+    desc: frango, calabresa e catupiry
+  - nome: Frango V
+    desc: frango, mussarela e champingnon
+  - nome: Lombo 1
+    desc: lombo, mussarela e cebola
+  - nome: Lombo II
+    desc: lombo, catupiry e cebola
+  - nome: Lombo III
+    desc: lombo, provolone e cebola
+  - nome: Lombo IV
+    desc: lombo, mussarela, ovo, ervilha, palmito e cebola
+  - nome: Lombo Califórnia
+    desc: lombo canadense, figo, abacaxi, pêssego e mussarela
+  - nome: Marguerita
+    desc: mussarela, tomate e manjericão fresco
+  - nome: Marguerita com Rúcula
+    desc: mussarela, tomate, manjericão fresco e rúcula
+  - nome: Mexicana
+    desc: pimentão picado, calabresa moída, tomate picado, cebola picada, mussarela,  pimenta de bico e molho de pimenta
+  - nome: Milho 1
+    desc: milho e mussarela
+  - nome: Milho II
+    desc: milho e catupiry
+  - nome: Milho lii
+    desc: milho e provolone
+  - nome: Mussarela
+    desc: mussarela e tomate
+  - nome: Napolitana
+    desc: mussarela, molho de tomate, parmesão e tomate
+  - nome: Paleta defumada
+    desc: mussarela e paleta defumada
+  - nome: Palmito 1
+    desc: palmito e mussarela
+  - nome: Palmito li
+    desc: palmito e catupiry
+  - nome: Palmito III
+    desc: palmito e provolone
+  - nome: Pizzaiolo
+    desc: calabresa, provolone, cebola e tomate
+  - nome: Portuguesa 1
+    desc: presunto, mussarela, ovo, ervilha e cebola
+  - nome: Portuguesa II
+    desc: presunto, mussarela, palmito, ervilha, cebola e ovo
+  - nome: Portuguesa III
+    desc: presunto, mussarela, ovo, ervilha, cebola, champignon e palmito
+  - nome: Rúcula
+    desc: mussarela, tomate seco e rúcula
+  - nome: Salame
+    desc: salame, mussarela e parmesão
+  - nome: Sorocabana
+    desc: calabresa moída, milho, ovo, palmito, cebola e mussarela
+  - nome: Toscana
+    desc: calabresa moida, mussarela e cebola
+  - nome: Vegetariana 1
+    desc: milho, ervilha, palmito, mussarela, champignon e escarola
+  - nome: Vegetariana II
+    desc: milho, ervilha, palmito, champignon, catupiry e brócolis
+
+- categoria: Super Especiais
+  produtos:
+  - nome: Anchovas
+    desc: anchovas (aliche) e mussarela
+  - nome: Coração de Alcachofra 1
+    desc: coração de alcachofra, mussarela e ervilha fresca
+  - nome: Coração de Alcachofra II
+    desc: coração de alcachofra, catupity e paleta defumada
+  - nome: Carne Seca
+    desc: carne seca desfiada, cebola, tomate e mussarela ou catupiry
+  - nome: Do Cliente
+    desc: você é quem monta
+  - nome: Mignon
+    desc: mignon, cebola, tomate, mussarela ou catupiry
+  - nome: Picanha
+    desc: picanha, mussarela, requeijão e cebola
+  - nome: Peito de Peru
+    desc: peito de peru, cebola, tomate, mussarela ou catupiry
+  - nome: Peperone
+    desc: peperone, champignon e mussarela
+  - nome: Rúcula
+    desc: rúcula, mussarela de búfula e tomate seco
+  - nome: Strogonoff 1
+    desc: alcatra, champignon, batata palha, mussarela ou catupiry
+  - nome: Strogonoff II
+    desc: frango, champignon, batata palha, mussarela ou catupiry
+  - nome: Strogonoff III
+    desc: palmito, champignon, batata palha, mussarela ou catupiry
+
+- categoria: Doces
+  produtos:
+  - nome: Banana 1
+    desc: banana, doce de leite e mussarela
+  - nome: Banana II
+    desc: banana, mussarela, canela e açucar
+  - nome: Banana III
+    desc: banana e chocolate ao leite
+  - nome: Brigadeiro
+    desc: chocolate ao leite e granulado
+  - nome: Queijadinha
+    desc: mussarela, doce de leite e coco ralado
+  - nome: Prestigio
+    desc: coco ralado e chocolate ao leite
+  - nome: Romeu e Julieta
+    desc: mussarela e goiabada
+
+- categoria: Bordas Recheadas
+  produtos:
+  - nome: Catupiry
+  - nome: Cheddar
+  - nome: Catupiry e Cheddar
+  - nome: Mussarela
+  - nome: Mussarela e Catupiry
+  - nome: Mussarela e Cheddar
+  - nome: Mussarela e Presunto
+  - nome: Chocolate
+  - nome: Chocolate e Banana
+  - nome: Banana e Canela
+

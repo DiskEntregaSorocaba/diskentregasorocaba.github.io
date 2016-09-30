@@ -2,13 +2,58 @@
 layout: default
 ---
 
-<div class="page-content">
-  <article class="wrapper">
-    <header class="post-header">
+<header class="page-content post-header parceiro-header" style="background-image:url('{{ page.cover }}');">
+  <div class="wrapper" data-grid="spacing">
+    <div class="parceiro-header-logo" data-cell="shrink"><img src="{{ page.logo }}" alt="{{ page.title }}"></div>
+    <div data-cell="">
       <h1 class="post-title">{{ page.title }}</h1>
-    </header>
-    <div class="post-content">
-      {{ content }}
+      <h2>{{ page.telefone }}</h2>
+      <p><a href="{{ page.site }}">{{ page.site }}</a></p>
     </div>
-  </article>
-</div>
+  </div>
+</header>
+
+<section class="page-content">
+  <div class="wrapper">
+
+    <aside class="post-content">
+      {{ content }}
+    </aside>
+
+    <div class="post-menu">
+      {% assign p = page.url | remove: '/' %}
+      {% assign menu = site.data.produtos[p] %}
+      {% for c in menu %}
+
+        <article class="post-menu-category">
+          <h2>{{c.categoria}}</h2>
+
+          <dl>
+            {% for item in c.produtos %}
+              <dt>{{ item.nome }}</dt>
+              <dd>{{ item.desc }}</dd>
+            {% endfor %}
+          </dl>
+
+        </article>
+
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<footer class="page-content parceiro-footer">
+  <div class="wrapper" data-grid="spacing">
+    <div class="parceiro-footer-logo" data-cell="shrink"><img src="{{ page.logo }}" alt="{{ page.title }}"></div>
+    <div data-cell="1of3">
+      <p>Endereco: {{ page.endereco }}</p>
+      <p>Bairro: {{ page.bairro }}</p>
+      <p>Cidade: {{ page.cidade }}</p>
+      <p>Telefone: {{ page.telefone }}</p>
+      <p>Website: <a href="{{ page.site }}">{{ page.site }}</a></p>
+    </div>
+    {% if page.maps %}
+      <div data-cell="2of3" class="embed-container google-maps">{{ page.maps }}</div>
+    {% endif %}
+  </div>
+</footer>

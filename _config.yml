@@ -26,4 +26,4 @@ defaults:
 collections:
   parceiros:
     output: true
-    permalink: /:categories/:path/
+    permalink: /:path/

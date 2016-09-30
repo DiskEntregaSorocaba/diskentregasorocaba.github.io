@@ -1,0 +1,21 @@
+- categoria: Monte você mesma sua batata (escolha até três ingredientes + um molho)
+  produtos:
+  - nome: Atum - Azeitona - Bacon - Bolonhesa - Calabresa 
+  - nome: Camarão - Carne seca - Catupiry - Champignon 
+  - nome: Cheddar - Crottons - Ervilha - Frango em cubos 
+  - nome: Lombo - Mignon - Milho verde - Napolitana 
+  - nome: Palmito - Parmesão ao creme - Provolone 
+  - nome: Quatro queijos - Strogonof - Strogonof de frango 
+  - nome: Mussarela - Presunto
+  - nome: LIGHT
+    desc: Brócolis - Peito de peru - Mussarela de búfaIa - Requeijão light - Ricota - Rúcula- Tomate seco
+- categoria: MOLHOS
+  produtos:
+  - nome: Branco – Bolonhesa - Rosê - Sugo
+- categoria: Lanches à sua moda (Escolha Três recheios para montar o seu lanche)
+  produtos:
+  - nome: Azeitona - Bacon - Calabresa - Campignon
+  - nome: Carne Desfiada - Carne Seca - Catupiry - Cheddar
+  - nome: Lombo - Mignon - Mussarela - Mussarela de Búfala
+  - nome: Ovo - Palmito - Parmesão - Peito de Peru
+  - nome: Presunto - Provolone - Requeijão Light - Ricota - Tomate Seco
