@@ -1,0 +1,23 @@
+
+- categoria: Cardápio da semana
+  produtos:
+  - nome: Segunda-feira
+    desc: Parmegiana de frango e carne
+  - nome: Terça-feira
+    desc: Carne de panela
+  - nome: Quarta-feira
+    desc: Feijoada completa
+  - nome: Quinta-feira
+    desc: Carne assada no forno com molho madeira
+  - nome: Sexta-feira
+    desc: Vaca tolada
+  - nome: Sábado
+    desc: Feijoada completa
+  - nome: Marmitex
+    desc: Marmitex mini
+    desc: Marmitex média
+    desc: Marmitex grande
+  - nome: Feijoada
+    desc: Feijoada mini
+    desc: Feijoada média
+    desc: Feijoadagrande

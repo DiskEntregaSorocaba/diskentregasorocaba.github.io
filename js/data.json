@@ -1,0 +1,18 @@
+---
+---
+[ {% for p in site.parceiros %}{% if forloop.index0 > 0 %},{% endif %}
+	{
+	title: '{{ p.title }}',
+	logo: '{{ p.logo }}',
+	cover: '{{ p.cover }}',
+	endereco: '{{ p.endereco }}',
+	bairro: '{{ p.bairro }}',
+	cidade: '{{ p.cidade }}',
+	horario: '{{ p.horario }}',
+	telefone: '{{ p.telefone }}',
+	site: '{{ p.site }}',
+	maps: '{{ p.maps }}',
+	url: '{{ p.url }}',
+	catalogo: '{{ site.data.produtos[ (p.url | remove: '/') ] | jsonify }}'
+	}
+{% endfor %} ]

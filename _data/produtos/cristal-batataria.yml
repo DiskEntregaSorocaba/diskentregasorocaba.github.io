@@ -1,0 +1,51 @@
+- categoria: Batata inglesa
+  produtos:
+  - nome: Catupiry
+  - nome: Provolone
+  - nome: Parmesão ao Creme
+  - nome: Bacon Assado em Cubos
+  - nome: Bolonhesa
+  - nome: Strogonof
+  - nome: Strogonof de Frango
+  - nome: 4 Queijos
+  - nome: Napolitano
+  - nome: Palmito
+  - nome: Calabresa
+  - nome: Mignon
+  - nome: Lombo
+  - nome: Atum
+  - nome: Cheddar
+
+- categoria: Lanches 
+  produtos:
+  - nome: Frango com Mussarela e Catupir
+    desc: Milho, Ervilha, Tomate, Maionese, Frango com Mussarela e Catupiry
+  - nome: Frango ao Creme de Leit
+    desc: Milho, Ervilha, Tomate, Maionese, Frango ao Creme de Leite
+  - nome: Frango com Catupiry e Baco
+    desc: Milho, Ervilha, Tomate, Maionese, Frango com Catupiry e Bacon
+  - nome: Frango com Catupir
+    desc: Milho, Ervilha, Tomate, Maionese, Frango com Catupiry
+  - nome: Filé Mignon com Mussarela e Catupir
+    desc: Milho, Ervilha, Tomate, Maionese, Filé Mignon c/Mussarela e Catupiry
+  - nome: Lombo Canadense com Mussarel
+    desc: Milho, Ervilha, Tomate, Maionese, Lombo Canadense com Mussarela
+  - nome: Calabresa com Mussarel
+    desc: Milho, Ervilha, Tomate, Maionese, Calabresa com Mussarela
+  - nome: 2 Hambúrgueres com Mussarel
+    desc: Milho, Ervilha, Tomate, Maionese, 2 Hambúrgueres com Mussarela
+  - nome: Hambúrguer, Ovo e Mussarel
+    desc: Milho, Ervilha, Tomate, Maionese, Hambúrguer, Ovo e Mussarela
+  - nome: Presunto com Mussarel
+    desc: Milho, Ervilha, Tomate, Maionese, Presunto com Mussarela
+  - nome: Presunto, Mussarela e Ov
+    desc: Milho, Ervilha, Tomate, Maionese, Presunto, Mussarela e Ovo
+
+- categoria: Lanches no  Pão de Batata
+  produtos:
+  - nome: 3 Queijos com Salaminho
+  - nome: 3 Queijos com Presunto
+  - nome: 3 Queijos com Bacon
+  - nome: 4 Queijos
+  - nome: Frango com Catupiry
+  - nome: Mignon com Catupir

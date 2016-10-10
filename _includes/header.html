@@ -1,22 +1,10 @@
 <header class="site-header">
 
-  <div class="wrapper" data-grid="center row nowrap justify">
+  <div class="wrapper" data-grid="spacing row nowrap justify">
 
-    <div data-cell="shrink">
+    <div data-cell>
       <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ '/img/logo-des.png' | prepend: site.baseurl }}" alt="{{ site.title }}" width="150"></a>
     </div>
-
-    <form action="" method="get" data-cell="" class="form-search">
-      <label for="search">Quero um delivery de:</label>
-      <div data-grid="row nowrap">
-        <div data-cell="" data-grid>
-          <input type="search" name="search" placeholder="Digite um produto ou serviço..." autofocus>
-        </div>
-        <div data-cell="shrink" data-grid>
-          <button>{% include lupa.svg %}</button>
-        </div>
-      </div>
-    </form>
 
     <nav class="site-nav" data-cell="shrink">
       <a href="#" class="menu-icon">
@@ -28,6 +16,7 @@
       </a>
 
       <div class="trigger">
+        <a class="page-link" href="{{ '/' | prepend: site.baseurl }}">Home</a>
         {% for my_page in site.pages %}
           {% if my_page.menu-title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.menu-title }}</a>
@@ -39,3 +28,19 @@
   </div>
 
 </header>
+
+<div class="page-content section-search">
+  <form action="" method="get" class="wrapper search-form">
+    <label for="search">Quero um delivery de:</label>
+    <div data-grid="row nowrap spacing end">
+      <div data-cell="">
+        <input type="search" name="searchinput" placeholder="Digite um produto ou serviço...">
+      </div>
+      <div data-cell="shrink">
+        <button>Pesquisar</button>
+      </div>
+    </div>
+  </form>
+  
+  <div class="search-results"></div>
+</div>

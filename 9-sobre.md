@@ -2,7 +2,7 @@
 layout: page
 title: Este é o Disk Entrega Sorocaba
 excerpt: >
-    Incluindo todos os ramos do disk entrega de Sorocaba, você encontrará pizzas, lanches, marmitex, etc., da forma mais fácil e usando o meio de comunicação que mais cresce na atualidade: a Internet.
+    Incluindo todos os ramos do disk entrega de Sorocaba, aqui você encontra pizzas, lanches, marmitex e vários outros serviços, da forma mais fácil e em qualquer dispositivo, sem precisar instalar nada.
 menu-title: Sobre
 permalink: /sobre/
 ---

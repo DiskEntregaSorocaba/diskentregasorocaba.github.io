@@ -5,7 +5,6 @@
         color: $amarelo
 
 .site-header
-    @extend %negativo
     padding: $spacing-unit 0
 
     +media-query($on-palm)
@@ -23,72 +22,56 @@
 .site-nav
     position: relative
     .menu-icon
-        display: block
-        float: right
-        width: 56px
-        height: 56px
-        text-align: center
-        > svg
-            width: 35px
-            height: 55px
-            color: $vermelho-claro
-            path
-                fill: currentcolor
-    .trigger
-        clear: both
         display: none
-        position: absolute
-        top: 100%
-        right: 0
-        box-shadow: -5px 5px 30px -5px $grey-color-dark
-    &:hover .trigger
-        display: block
-        background-color: $amarelo
     .page-link
-        display: block
-        padding: 15px
-        color: $text-color
+        margin-left: $spacing-unit
 
-.form-search
-    position: relative
-    padding-left: $spacing-unit
-    padding-right: $spacing-unit
     +media-query($on-palm)
-        padding-top: $spacing-unit / 2
+        .menu-icon
+            display: block
+            float: right
+            height: 56px
+            text-align: center
+            > svg
+                width: 35px
+                height: 55px
+                color: inherit
+                path
+                    fill: currentcolor
+        .trigger
+            clear: both
+            display: none
+            position: absolute
+            top: 100%
+            right: 0
+            box-shadow: -5px 5px 30px -5px $grey-color-dark
+        &:hover .trigger
+            display: block
+            background-color: $amarelo
+        .page-link
+            display: block
+            padding: 15px
+            color: $text-color
 
-    label
-        position: absolute
-        top: -1em
-        +media-query($on-palm)
-            top: 0
+
+.section-search
+
+.search-form
+    position: relative
 
     input, select, textarea, button
         outline: none
-        font-size: $base-font-size * 1.5
-        border-bottom-color: $vermelho-claro
-        background-color: transparent
+        font-size: $base-font-size * 1.4
+
         +media-query($on-laptop)
             padding: 0
+
         +media-query($on-palm)
             font-size: $base-font-size
-            border: none
+
+.search-results
 
 
-    button
-        &:focus
-            box-shadow: 0 0 30px 0 rgba($grey-color-dark,.5)
-        +media-query($on-palm)
-            svg
-                width: 20px
-    
-    ::-webkit-input-placeholder
-        color: $vermelho-claro
-    \:-moz-placeholder
-        color: $vermelho-claro
-    ::-moz-placeholder
-        color: $vermelho-claro
-    \:-ms-input-placeholder
-        color: $vermelho-claro
 
 .site-footer
     padding: $spacing-unit 0
@@ -112,3 +95,4 @@
 .post-header
 .post-title
 .post-content
+
