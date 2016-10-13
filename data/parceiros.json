@@ -1,0 +1,17 @@
+---
+---
+[ {% for p in site.parceiros %}{% if forloop.index0 > 0 %},{% endif %}{% assign page_name = p.url | remove: '/' %}
+	{
+		"title": {{ p.title | jsonify }},
+		"logo": {{ p.logo | jsonify }},
+		"cover": {{ p.cover | jsonify }},
+		"endereco": {{ p.endereco | jsonify }},
+		"bairro": {{ p.bairro | jsonify }},
+		"cidade": {{ p.cidade | jsonify }},
+		"horario": {{ p.horario | jsonify }},
+		"telefone": {{ p.telefone | jsonify }},
+		"site": {{ p.site | jsonify }},
+		"maps": {{ p.maps | jsonify }},
+		"url": {{ p.url | jsonify }},
+		"produtos": {% for c in site.data.produtos %}{% if c[0] == page_name %}{{ c[1] | jsonify }}{% endif %}{% endfor %}
+	}{% endfor %} ]

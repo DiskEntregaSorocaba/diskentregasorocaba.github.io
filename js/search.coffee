@@ -16,5 +16,5 @@ formArray.forEach (form) ->
 
 	form.addEventListener 'submit', (e) ->
 		e.preventDefault()
-		console.log HTTP.get '/js/data.json', (data) ->
-			console.log data
+		console.log HTTP.get '/data/parceiros.json', (data) ->
+			console.log JSON.parse data
