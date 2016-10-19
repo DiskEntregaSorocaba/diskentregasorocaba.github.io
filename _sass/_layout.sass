@@ -72,6 +72,9 @@
 .search-results-container
     margin-top: $spacing-unit
     background-color: $grey-color-light
+    &:before
+        content: ''
+        display: table
 
 .search-results
     .resultado
@@ -80,7 +83,6 @@
         border-radius: 4px
         box-shadow: 0 2px 3px 0 rgba($grey-color, .1)
         margin-bottom: $spacing-unit
-        opacity: 0
         animation: getup .5s forwards ease-in-out
         @for $i from 1 through 10
             &:nth-of-type(#{$i})

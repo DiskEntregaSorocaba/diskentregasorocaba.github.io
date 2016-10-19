@@ -56,13 +56,7 @@ displaySearchResults = (query, results, data) ->
 	else
 		resultsContainer.innerHTML += '<p>Desculpe! Nenhum resultado foi encontrado. Tente pesquisar outros termos.</p>'
 
-input.addEventListener 'focus', (e) ->
-	form.classList.add 'focus'
-
-input.addEventListener 'blur', (e) ->
-	form.classList.remove 'focus'
-
-form.addEventListener 'submit', (e) ->
+search = (e) ->
 	e.preventDefault()
 	searchTerm = input.value
 	if searchTerm
@@ -72,4 +66,12 @@ form.addEventListener 'submit', (e) ->
 	else
 		resultsContainer.innerHTML = '<p>Digite o que você está procurando.</p><p>Exemplo: <em>pizza de calabresa</em></p>'
 
-input.value = 'calabresa'
+input.addEventListener 'focus', (e) ->
+	form.classList.add 'focus'
+
+input.addEventListener 'blur', (e) ->
+	form.classList.remove 'focus'
+
+form.addEventListener 'submit', search
+
+

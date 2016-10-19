@@ -17,9 +17,9 @@ layout: compress
 	<script src="{{ '/js/HTTP.js' | prepend: site.baseurl }}"></script>
 	<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
   <script>
-
-    const BASE_URL = '{{ "/" | prepend: site.baseurl }}';
     
+    window.BASE_URL = '{{ "/" | prepend: site.baseurl }}';
+
     window.data = [ {% for p in site.parceiros %}{% if forloop.index0 > 0 %},{% endif %}{% assign page_name = p.url | remove: '/' %}
       {
         "title"    : {{ p.title | jsonify }},
@@ -35,7 +35,7 @@ layout: compress
         "url"      : {{ p.url | jsonify }},
         "content"  : {{ p.content | newline_to_br | replace: '<br />', ' ' | strip_html | strip_newlines | jsonify }},
         "produtos" : {% for c in site.data.produtos %}{% if c[0] == page_name %}{{ c[1] | jsonify }}{% endif %}{% endfor %}
-      }{% endfor %} ]
+      }{% endfor %} ];
 
   </script>
 	<script src="{{ '/js/search.js' | prepend: site.baseurl }}"></script>
