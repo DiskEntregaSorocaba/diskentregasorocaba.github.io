@@ -71,6 +71,15 @@
         +variant(2of3)
             flex-basis: 66.666%
 
+        +variant(start)
+            align-self: start
+        +variant(end)
+            align-self: end
+        +variant(stretch)
+            align-self: stretch
+        +variant(center)
+            align-self: center
+
         +media-query($on-palm)
             margin-left: 0 !important
             margin-right: 0 !important
@@ -87,8 +96,8 @@
             display: inline-block
 
             +media-greater($on-palm)
-                flex-basis: 50%
-                width: 50%
+                flex-basis: 40%
+                width: 40%
 
                 &:nth-child(odd)
                     margin-left: 0 !important

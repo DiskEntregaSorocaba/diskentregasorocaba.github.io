@@ -21,6 +21,7 @@
 
 .site-nav
     position: relative
+    z-index: 999
     .menu-icon
         display: none
     .page-link
@@ -63,14 +64,42 @@
         outline: none
         font-size: $base-font-size * 1.4
 
-        +media-query($on-laptop)
-            padding: 0
-
         +media-query($on-palm)
             font-size: $base-font-size
+            button
+            font-size: $small-font-size
+
+.search-results-container
+    margin-top: $spacing-unit
+    background-color: $grey-color-light
 
 .search-results
+    .resultado
+        padding: $spacing-unit / 2
+        background-color: #fff
+        border-radius: 4px
+        box-shadow: 0 2px 3px 0 rgba($grey-color, .1)
+        margin-bottom: $spacing-unit
+        opacity: 0
+        animation: getup .5s forwards ease-in-out
+        @for $i from 1 through 10
+            &:nth-of-type(#{$i})
+                animation-duration: .5s * $i
+    .title
+        margin-top: 0
+        line-height: 1
+    .logo
+        max-width: 175px
+    .meta
+        color: $grey-color
 
+@keyframes getup
+    0%
+        opacity: 0
+        transform: translateY(100px)
+    100%
+        opacity: 1
+        transform: translateY(0)
 
 
 .site-footer

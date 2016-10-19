@@ -2,7 +2,7 @@
 
   <div class="wrapper" data-grid="spacing row nowrap justify">
 
-    <div data-cell>
+    <div data-cell="center">
       <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ '/img/logo-des.png' | prepend: site.baseurl }}" alt="{{ site.title }}" width="150"></a>
     </div>
 
@@ -41,6 +41,8 @@
       </div>
     </div>
   </form>
-  
-  <div class="wrapper search-results"></div>
+  <div class="search-results-container" data-grid>
+    <div class="wrapper search-results"></div>
+  </div>
 </div>
+
