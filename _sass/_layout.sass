@@ -5,7 +5,12 @@
         color: $amarelo
 
 .site-header
-    padding: $spacing-unit 0
+    padding: $spacing-unit / 2 0
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    z-index: 99
 
     +media-query($on-palm)
         padding: 0
@@ -26,6 +31,7 @@
         display: none
     .page-link
         margin-left: $spacing-unit
+        color: $grey-color-dark
 
     +media-query($on-palm)
         .menu-icon
@@ -56,12 +62,15 @@
 
 
 .section-search
+    background-color: lightskyblue
+    padding: $spacing-unit * 4 0 $spacing-unit * 2
 
 .search-form
     position: relative
+    max-width: $on-laptop
+    margin: auto
 
     input, select, textarea, button
-        outline: none
         font-size: $base-font-size * 1.4
 
         +media-query($on-palm)
