@@ -91,15 +91,17 @@
 
     +variant(cols-2)
         flex-wrap: wrap
+        justify-content: space-between
 
         > *
             display: inline-block
 
             +media-greater($on-palm)
-                flex-basis: 40%
-                width: 40%
+                flex-basis: 50%
+                max-width: 50%
 
                 &:nth-child(odd)
                     margin-left: 0 !important
                 &:nth-child(even)
                     margin-right: 0 !important
+

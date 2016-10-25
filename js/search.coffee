@@ -34,8 +34,16 @@ window.data.forEach (parceiro, index) ->
 			, ""
 	window.index.add newItem
 
+resultsContainer.say = (strOut, clear) ->
+	if clear is true or not strOut
+		this.parentNode.classList.remove 'active'
+		this.innerHTML = ''
+	if strOut
+		this.parentNode.classList.add 'active'
+		this.innerHTML += strOut
+
 displaySearchResults = (query, results, data) ->
-	resultsContainer.innerHTML = '<p>Pesquisando por <em>' + query + '</em></p>'
+	resultsContainer.say '<p>Pesquisando por <em>' + query + '</em></p>', true
 	if results.length
 		resultsOutput = ''
 		resultsItems = results.map (r) ->
@@ -51,20 +59,20 @@ displaySearchResults = (query, results, data) ->
 			content += '</p></div>' +
 			'<p>' + r.content.replace(/^(.{100}[^\s]*).*/, "$1&hellip;") + '</p>' +
 			'</div>'
-			resultsOutput += '<article class="resultado"><div data-grid="row spacing">' + content + '</div> </article>'
-		resultsContainer.innerHTML += '<div data-grid="cols-2 spacing">' + resultsOutput + '</div>'
+			resultsOutput += '<article class="resultado"><div data-grid="spacing">' + content + '</div> </article>'
+		resultsContainer.say '<div data-grid="cols-2">' + resultsOutput + '</div>'
 	else
-		resultsContainer.innerHTML += '<p>Desculpe! Nenhum resultado foi encontrado. Tente pesquisar outros termos.</p>'
+		resultsContainer.say '<p>Desculpe! Nenhum resultado foi encontrado. Tente pesquisar outros termos.</p>'
 
 search = (e) ->
 	e.preventDefault()
 	searchTerm = input.value
 	if searchTerm
-		resultsContainer.innerHTML = '<p>Analisando...</p>'
+		resultsContainer.say '<p>Analisando...</p>', true
 		results = window.index.search searchTerm
 		displaySearchResults searchTerm, results, window.data
 	else
-		resultsContainer.innerHTML = '<p>Digite o que você está procurando.</p><p>Exemplo: <em>pizza de calabresa</em></p>'
+		resultsContainer.say '<p>Digite o que você está procurando.</p><p>Exemplo: <em>pizza de calabresa</em></p>', true
 
 input.addEventListener 'focus', (e) ->
 	form.classList.add 'focus'

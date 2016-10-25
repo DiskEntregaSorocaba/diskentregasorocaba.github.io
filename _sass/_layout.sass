@@ -60,59 +60,6 @@
             padding: 15px
             color: $text-color
 
-
-.section-search
-    background-color: lightskyblue
-    padding: $spacing-unit * 4 0 $spacing-unit * 2
-
-.search-form
-    position: relative
-    max-width: $on-laptop
-    margin: auto
-
-    input, select, textarea, button
-        font-size: $base-font-size * 1.4
-
-        +media-query($on-palm)
-            font-size: $base-font-size
-            button
-            font-size: $small-font-size
-
-.search-results-container
-    margin-top: $spacing-unit
-    background-color: $grey-color-light
-    &:before
-        content: ''
-        display: table
-
-.search-results
-    .resultado
-        padding: $spacing-unit / 2
-        background-color: #fff
-        border-radius: 4px
-        box-shadow: 0 2px 3px 0 rgba($grey-color, .1)
-        margin-bottom: $spacing-unit
-        animation: getup .5s forwards ease-in-out
-        @for $i from 1 through 10
-            &:nth-of-type(#{$i})
-                animation-duration: .5s * $i
-    .title
-        margin-top: 0
-        line-height: 1
-    .logo
-        max-width: 175px
-    .meta
-        color: $grey-color
-
-@keyframes getup
-    0%
-        opacity: 0
-        transform: translateY(100px)
-    100%
-        opacity: 1
-        transform: translateY(0)
-
-
 .site-footer
     padding: $spacing-unit 0
 
@@ -135,4 +82,79 @@
 .post-header
 .post-title
 .post-content
+
+
+
+.section-search
+    background-color: lightskyblue
+    padding: $spacing-unit * 4 $spacing-unit / 2 $spacing-unit * 2
+
+.search-form
+    position: relative
+    max-width: $on-laptop
+    margin: auto
+
+    input, select, textarea, button
+        font-size: $base-font-size * 1.4
+
+        +media-query($on-palm)
+            font-size: $base-font-size
+            button
+            font-size: $small-font-size
+
+$search-results-color: rgba(black, .1)
+
+.search-results-container
+    display: table
+    margin-top: $spacing-unit
+    position: relative
+    border-radius: 6px
+    &.active
+        background-color: $search-results-color
+        animation: getup .3s forwards ease-in-out
+        &:before
+            content: ''
+            display: table
+            position: absolute
+            top: -1em
+            left: 20%
+            border-style: solid
+            border-width: 0 1em 1em
+            border-color: transparent transparent $search-results-color
+
+.search-results
+    > p
+        color: #fff
+    .resultado
+        padding: $spacing-unit / 2
+        background-color: rgba(#fff, .7)
+        color: $text-color
+        border-radius: 4px
+        box-shadow: 0 2px 3px 0 rgba($grey-color, .1)
+        margin-bottom: $spacing-unit
+        animation: getup .5s forwards ease-in-out
+        +media-greater($on-palm)
+            max-width: 48.8%
+        @for $i from 1 through 10
+            &:nth-of-type(#{$i})
+                animation-duration: .5s * $i
+    .title
+        margin-top: 0
+        line-height: 1
+    .logo
+        margin-right: $spacing-unit
+        +media-greater($on-palm)
+            max-width: 160px
+            padding: $spacing-unit / 2
+            background-color: #fff
+    .meta
+        color: $grey-color
+
+@keyframes getup
+    0%
+        opacity: 0
+        transform: translateY(100px)
+    100%
+        opacity: 1
+        transform: translateY(0)
 

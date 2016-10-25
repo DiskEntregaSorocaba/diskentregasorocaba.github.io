@@ -1,9 +1,9 @@
 <header class="site-header">
 
-  <div class="wrapper" data-grid="spacing row nowrap justify">
+  <div class="wrapper" data-grid="spacing row nowrap center justify">
 
     <div data-cell="center">
-      <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ '/img/logo-des.png' | prepend: site.baseurl }}" alt="{{ site.title }}" width="150"></a>
+      <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ '/img/logo-des.png' | prepend: site.baseurl }}" alt="{{ site.title }}" width="70"></a>
     </div>
 
     <nav class="site-nav" data-cell="shrink">
@@ -29,20 +29,22 @@
 
 </header>
 
-<div class="page-content section-search">
-  <form action="" method="get" class="wrapper search-form">
-    <label for="search">Quero um delivery de:</label>
-    <div data-grid="row nowrap spacing end">
-      <div data-cell="">
-        <input type="search" name="searchinput" placeholder="Digite um produto ou serviço...">
-      </div>
-      <div data-cell="shrink">
-        <button>Pesquisar</button>
+<div class="section-search">
+  <form action="" method="get" class="search-form">
+    <div class="search-form-inner">
+      <label for="search">Quero um delivery de:</label>
+      <div data-grid="row nowrap spacing end">
+        <div data-cell="">
+          <input type="search" name="searchinput" placeholder="Digite um produto ou serviço...">
+        </div>
+        <div data-cell="shrink">
+          <button>Pesquisar</button>
+        </div>
       </div>
     </div>
   </form>
-  <div class="search-results-container">
-    <div class="wrapper search-results"></div>
+  <div class="wrapper search-results-container">
+    <div class="page-content search-results"></div>
   </div>
 </div>
 
