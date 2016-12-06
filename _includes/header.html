@@ -32,10 +32,11 @@
 <div class="section-search">
   <form action="" method="get" class="search-form">
     <div class="search-form-inner">
-      <label for="search">Quero um delivery de:</label>
       <div data-grid="row nowrap spacing end">
-        <div data-cell="">
-          <input type="search" name="searchinput" placeholder="Digite um produto ou serviço...">
+        <div data-cell="shrink"><label for="CEP">CEP</label><input type="text" name="CEP" placeholder="Informe seu CEP" size="9" pattern="\d{5}-\d{3}"></div>
+        <div data-cell>
+          <label for="search">Quero um delivery de:</label>
+          <input type="search" name="searchinput" placeholder="produto ou serviço...">
         </div>
         <div data-cell="shrink">
           <button>Pesquisar</button>
