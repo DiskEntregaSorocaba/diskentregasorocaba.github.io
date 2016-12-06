@@ -19,11 +19,20 @@ defaults:
   -
     scope:
       path: ""
+      type: categorias
+    values:
+      layout: categoria
+  -
+    scope:
+      path: ""
       type: parceiros
     values:
       layout: parceiro
 
 collections:
+  categorias:
+    output: true
+    permalink: /:path/
   parceiros:
     output: true
     permalink: /:path/
